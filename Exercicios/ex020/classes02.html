@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mais sobre Pseudo-Clases</title>
+    <style>
+    body{
+        font-family: Arial, Helvetica, sans-serif;
+        font-size: medium;
+    }
+        
+    div>p{
+        display: none;
+    }
+
+    div:hover{
+        color: #5804f5;
+        width: 200px;
+    } 
+    
+    div:hover>p{
+        display: block;
+        background-color: rgb(255, 0, 157);
+        color: white;
+        width: 200px;
+    }
+    </style>
+</head>
+<body>
+    <h1>Texto escondido</h1>
+    <p>Passe o mouse para revelar algo o texto oculto</p>
+    <div>Passe o mouse aqui
+        <p>ACHO!!!</p>
+    </div>
+    
+</body>
+</html>

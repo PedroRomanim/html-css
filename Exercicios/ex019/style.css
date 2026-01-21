@@ -1,0 +1,35 @@
+@charset "UTF-8";
+
+body {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 18px;
+    background-color: #ad5ce0b0;
+    text-align: justify;
+}
+
+#principal {
+    font-size: 2em;
+    color :whitesmoke;
+    text-align: center;
+    background-color: #383838c7;
+}
+
+h1{
+    font-size: 2em;
+    color: #5C61E0;
+}
+
+.basico{
+    font-size: 1.5em;
+    color: #428142
+}
+
+.intermediario{
+    font-size: 1.5em;
+    color: #E0A61F
+}
+
+.avançado{
+    font-size: 1.5em;
+    color: #E05C5C
+}

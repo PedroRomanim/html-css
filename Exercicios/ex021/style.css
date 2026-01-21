@@ -1,0 +1,65 @@
+@charset "UTF-8";
+
+body {
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  background-color: rgb(121, 121, 121);
+  margin: 0;
+}
+
+header {
+  background-color: whitesmoke;
+  padding: 20px;
+  width: 800px;
+  margin: 10px auto;
+  text-align: center;
+  border-radius: 10px 0px;
+  box-shadow: 4px 4px 1px 0px rgba(0, 0, 0, 0.404);
+}
+
+header > h1 {
+  color: black;
+  font-size: 3em;
+  margin-top: 2%;
+}
+header > nav > a {
+  text-decoration: none;
+  color: black;
+  font-size: 1.1em;
+  padding-left: 10px;
+  margin-bottom: 2%;
+}
+nav > a:hover {
+  text-decoration: underline;
+  color: red;
+  font-size: 1.2em;
+  font-style: bold;
+}
+
+main {
+  width: 800px;
+  margin: 0 auto;
+  padding: 20px;
+  background-color: white;
+  border-radius: 10px 0px;
+  box-shadow: 4px 4px 1px 0px rgba(0, 0, 0, 0.404);
+}
+section > h2 {
+  color: black;
+  font-size: 1.5em;
+  margin-top: 0;
+  text-align: center;
+}
+section > p {
+  font-size: 1em;
+  line-height: 1.5;
+}
+
+footer {
+  background-color: black;
+  color: white;
+  padding: 20px;
+  width: 800px;
+  margin: 5px auto;
+  text-align: center;
+  border-radius: 10px;
+}

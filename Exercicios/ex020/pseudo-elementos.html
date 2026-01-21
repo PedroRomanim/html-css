@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Pseudo-Elementos</title>
+    <style>
+      body {
+        font-family: Arial, Helvetica, sans-serif;
+        font-size: medium;
+      }
+      a {
+        text-decoration: none;
+        color: #f11616;
+        font-weight: bold;
+      }
+
+      a:visited {
+        color: #dff706;
+      }
+
+      a:hover {
+        color: #5804f5;
+      }
+
+      a:active {
+        color: #15d603;
+      }
+      .especial.especial::before {
+        content: "🔗";
+        margin-right: 5px;
+      }
+    </style>
+  </head>
+  <body>
+    <h1>Pseudo-Elementos</h1>
+    <p>Veja o exemplo de pseudo-elementos abaixo:</p>
+    <ol>
+      <li>
+        <a class="especial" href="https://github.com/PedroRomanim" target="_blank">GitHub</a>
+      </li>
+      <li>
+        <a href="https://www.twitch.tv/fallzinh0kk" target="_blank">Twitch</a>
+      </li>
+      <li>
+        <a href="https://www.youtube.com/@pedroromanim8334" target="_blank"
+          >YouTube</a
+        >
+      </li>
+    </ol>
+  </body>
+</html>

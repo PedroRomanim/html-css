@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Videos Hospedados localmente</title>
+  </head>
+  <body>
+    <h1>Testando a hospedagem de videos locais</h1>
+    <p>Aqui esta um video que coloquei no meu site.</p>
+    <video width="560" poster="imagens/tokyo.jpg" controls>
+      <source src="midia/meu-video.ogv" type="video/ogg" />
+      <source src="midia/meu-video.webm" type="video/webm" />
+      <source src="midia/meu-video.mkv" type="video/mkv" />
+      <source src="midia/meu-video.mp4" type="video/mp4" />
+      <p>Seu navegador não é compativel com esse formato de video.</p>
+    </video>
+    <h1>Video incorporado do YouTube</h1>
+    <iframe
+      width="560"
+      height="315"
+      src="https://www.youtube.com/embed/m-BfV_9nGc8?si=VoZfERas3fmFmhEX"
+      title="YouTube video player"
+      frameborder="0"
+      allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+      referrerpolicy="strict-origin-when-cross-origin"
+      allowfullscreen
+    ></iframe>
+    <h1>Video incorporado do Vimeo</h1>
+    <iframe
+      src="https://player.vimeo.com/video/554780351?badge=0&amp;autopause=0&amp;player_id=0&amp;app_id=58479"
+      width="560"
+      height="293"
+      frameborder="0"
+      allow="autoplay; fullscreen; picture-in-picture; clipboard-write; encrypted-media"
+      title="Anime transition #anime"
+    ></iframe>
+    <!--Fazendo dessas duas fomas acima nao consumira dados do seu sevidor, ou seja economia-->
+  </body>
+</html>

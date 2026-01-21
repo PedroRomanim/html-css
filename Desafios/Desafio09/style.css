@@ -1,0 +1,44 @@
+@charset "UTF-8";
+h1 {
+    color: #000000;
+    font-size: 3em;
+    text-align: center;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+.box{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 2px;
+    margin: 20px auto;
+    max-width: 1200px;
+}
+.box img{
+    width: 80%;
+    height: 100%;
+    border-radius: 10px;
+    object-fit: cover;
+    transition: transform 0.3s;
+}
+.box img:hover{
+    transform: scale(1.05);
+} 
+.box-ciencia{
+    grid-column: 1 / 3;
+    text-align: center;
+    margin-bottom: 20px;
+}
+.box-ingles{
+    grid-column: 1 / 3;
+    text-align: center;
+    margin-bottom: 20px;
+}
+.box-eldenring{
+    grid-column: 1 / 3;
+    text-align: center;
+    margin-bottom: 20px;
+}
+.box-ghost{
+    grid-column: 1 / 3;
+    text-align: center;
+    margin-bottom: 20px;
+}
